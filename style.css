@@ -1,0 +1,1090 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: rgb(220, 220, 220);
+}
+.header{
+    width: 1920px;
+    height: 124px;
+    padding: 0 60px;
+    background-color: #181818;
+    align-items: center;
+    align-content: center;
+}
+.nav{
+    display: flex;
+    gap: 60px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+}
+.logo1{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+}
+.btn1{
+    margin: 10px 0;
+    width: 149px;
+    height: 44px;
+    background-color: #2c2c2c;
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.section1{
+    height: 966px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.video{
+    position: absolute;
+    z-index: -5;
+}
+.section1h1{
+    font-weight: 700;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 170px 0;
+    text-shadow: 0px 0px 10px black;
+}
+.section1p1{
+    font-weight: 500;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom:150px;
+}
+.li1{
+    display: flex;
+    gap: 23px;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+.sarik1{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    padding: 0 330px;
+    text-shadow: 0px 0px 10px black;
+}
+.sarik1 img{
+    width: 26px;
+    height: 26px;
+}
+.sarik2{
+    width: 1320px;
+    height: 271px;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 210px auto;
+}
+.sarik2h3{
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+.sarik3{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px; 
+}
+.input1{
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.input1::placeholder{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn2{
+    width: 150px;
+    height: 65px;
+    background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.section2{
+    padding:0 300px ;
+}
+.glava{
+    align-items: center;
+    display: flex;
+    gap: 60px;
+    padding: 240px 300px;
+}
+.sarikh1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.btn3{
+    width: 124px;
+    height: 44px;
+    border: 2px solid black; 
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: white;
+}
+.katalog{
+    display: flex;
+    gap: 20px;
+    padding: 0 100px;
+}
+.katalogbtn{
+    display: flex;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    width: 217px;
+    height: 74px;
+    text-align: center;
+    align-items: center;
+    padding: 31px 30px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.katalogbtn img {
+    width: 30px;
+    height: 12px;
+}
+.katalogbtn:hover{
+    background-color: rgb(77, 77, 77);
+    transition: 1.5s all;
+    color: rgb(219, 219, 219);
+}
+.vibor{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    gap: 14px;
+    /* z-index: 9999; */
+}
+.mashini{
+    width: 424px;
+    height: 483px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(100, 100, 100);
+    position: relative;
+}
+.moskva{
+    width: 59px;
+    height: 27px;
+    background-color: rgb(190, 171, 128);
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    /* margin: 24px 341px; */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.mashini img {
+    margin: 38px 69px;
+}
+.mashini h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin: -20px 50px;
+}
+.cherta{
+    text-align: center;
+    margin: -27px 50px;
+}
+.bronbtn{
+    width: 190px;
+    height: 42px;
+    background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    margin: 45px 50px;
+}
+.bronbtn:hover{
+    background: linear-gradient(67.38deg, #E3D293 9.19%, #9F7437 92.03%);
+    transition: 1.5s all;
+    border: 2px solid rgb(0, 0, 0);
+}
+.sutki{
+    display: flex;
+    gap: 57px;
+}
+.sutki p{
+    color: black;
+}
+.sutki p{
+    margin: 45px 50px ;
+}
+.aaa{
+    color: white;
+}
+.text1{
+    padding: 120px 0;
+}
+.text1 h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.text1 p{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(152, 152, 152);
+}
+.section3{
+    padding: 120px 40px;
+    background-image: url(mersbg.png) ;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+}
+.section3h2{
+    margin: 0 270px;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+.mersdiv{
+    padding: 170px 270px;
+}
+.ppp{
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+}
+.pppp{
+    color: rgb(183, 183, 183);
+    font-weight: 500;
+    font-size: 18px;
+}
+.input11{
+    width: 424px;
+    height: 76px;
+    background-color: rgba(245, 245, 245, 1);
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.input11::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.merskotta{
+    display: flex;
+}
+.mersdiv2{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 180px 0;
+}
+.zabronbtn{
+    width: 424px;
+    height: 76px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+}
+.zabronbtn:hover{
+    color: rgb(178, 178, 178);
+    background-color: black;
+    transition: 1.5s all;
+}
+.mersdiv2p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(169, 169, 169);
+}
+.section4{
+    padding: 120px 300px;
+}
+.section4h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.foto{
+    padding: 60px 0;
+    display: flex;
+    gap: 25px;
+}
+.foto1{
+    width: 651px;
+    height: 585px;
+    border-radius: 20px;
+    background-color: rgba(235, 235, 235, 1);
+}
+.foto1:hover{
+    background-color: #1D1D1D;
+    transition: all 2s;
+    color: #E3D293;
+}
+.foto1 h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px 50px;
+}
+.foto1 p{
+    color: rgba(152, 152, 152, 1);
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    top: -25px;
+    right: -50px;
+}
+.section5h1{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 500px;
+}
+.boxcha{
+    width: 424px;
+    height: 272px;
+    display: flex;
+    gap: 40px ;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+.boxtext h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.boxtext p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(152, 152, 152, 1);
+}
+.boxcha img {
+    width: 50px;
+    height: 50px;
+}
+.box{
+    display: flex;
+    gap: 24px;
+    padding: 60px 300px;
+}
+.section6{
+    padding: 120px 40px;
+    background-image: url(camaro.png) ;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+}
+.camarodiv{
+    padding: 50px 270px;
+}
+.camarodiv2{
+    width: 538px;
+    height: 448px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.camarokotta{
+    display: flex;
+}
+.tachkatext{
+    font: 700px;
+    font-size: 20px;
+}
+.textpP{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(159, 159, 159, 1);
+}
+.div{
+    padding: 0 50px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section7{
+    padding: 120px 270px;
+}
+.section7h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+.karto{
+    width: 424px;
+    height: 638px;
+}
+.karto h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 40px 0px;
+}
+.kartochkalar{
+    padding: 60px 0px;
+    display: flex;
+    gap: 24px;
+}
+.section8{
+    padding: 120px 300px;
+    background-color: rgb(224, 224, 224);
+}
+.section8h2{
+    font-weight: 700;
+    font-size: 48px;
+}
+.prichinki{
+    display: flex;
+    gap: 40px;
+}
+.prichtext h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.prichtext p{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(152, 152, 152, 1);
+}
+.prichina{
+    padding: 70px 0;
+    display: flex;
+    gap: 213px;
+    flex-wrap: wrap;
+}
+.prichtext{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
+.section9{
+    width: 96%;
+    height: 800px;
+    background-image: url(section9.png);
+    background-position: 68px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxxx{
+    display: flex;
+    padding: 120px 300px;
+}
+.boxchax{
+    color: white;
+}
+.boxchax h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+.boxchax h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.boxchax p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #9F9F9F;
+}
+.boxx1{
+    display: flex;
+    gap: 112px;
+}
+.ul10{
+    display: flex;
+    align-items: center;
+    gap: 101px;
+
+}
+.div10ul{
+    width: 1757px;
+    margin: 0 68px;
+    padding: 0px 220px;
+    background-color: white;
+    align-items: center;
+}
+.mazerati:hover{
+    transform: scale(1.1);
+    transition: all 3s;
+}
+.viborimg:hover{
+    transition: all 1.5s;
+    transform: scale(1.2);
+}
+.viboriimg:hover{
+    transition: all 3s;
+    transform: scale(1.1);
+}
+.section11{
+    display: flex;
+    padding: 120px 360px;
+    gap: 136px;
+}
+.div11 h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+}
+.div11 p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #9F9F9F;
+}
+.div11 h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.input11::placeholder{
+    color: #A4A4A4;
+    font-weight: 600;
+    font-size: 19px;
+}
+.input11{
+    width: 448px;
+    height: 76px;
+    border: none;
+    border-radius: 10px;
+}
+.btn11{
+    width: 448px;
+    height: 76px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+.footerdiv{
+    width: 1800px;
+    height: 534px;
+    background-color: #1D1D1D;
+    margin: -125px auto;
+    border-radius: 20px 20px 0px 0px;
+    padding: 110px 425px;
+    display: flex;
+    gap: 128px;
+}
+.footerh4{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+}
+.footerchadiv p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #AFAFAF;
+}
+.pppppppp{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footerchadiv2{
+    display: flex;
+    gap: 95px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footerchadiv2 h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+.video{
+    width: 100%;
+    height: 116.3%;
+    object-fit: cover;
+}
+
+.btn1A{
+    color:white;
+}
+.btn1:hover{
+    background-color: #612a2a;
+    transition: all 2s;
+    border: 2px solid white;
+}
+@media (max-width: 600px) {
+  
+  .header, .section1, .section2, .section4, .section7, .section8, .section9 {
+    width: 100% ;
+    padding: 0 20px; 
+    box-sizing: border-box;
+  }
+  
+
+  .header {
+    height: auto;
+    padding: 15px 20px;
+  }
+  
+
+  .nav {
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+
+  .nav img:nth-child(2),
+  .burger {
+    display: none;
+  }
+
+ 
+  .nav img:last-child {
+    display: block; 
+  }
+
+
+  .nav img:first-child { 
+      width: 100px;
+      height: auto;
+  }
+  
+
+  .section1 {
+    height: 700px; 
+    padding: 0 20px;
+  }
+  
+  .section1h1 {
+    font-size: 48px;
+    padding: 80px 0 20px 0;
+    text-align: left;
+  }
+  
+  .section1p1 {
+    font-size: 18px;
+    text-align: left;
+    position: static;
+    margin-bottom: 30px;
+  }
+
+
+  .sarik1 {
+    flex-direction: column; 
+    gap: 20px;
+    padding: 0 0; 
+    margin-top: -80px;
+  }
+
+
+  .sarik2 {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .sarik3 {
+    flex-direction: column; 
+    gap: 15px;
+    padding: 20px 0;
+  }
+  
+  .input1, .btn2 {
+    width: 100%; 
+    height: 50px;
+    font-size: 16px;
+  }
+  
+  .sarik3 img {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+    .section2 {
+        padding: 0 20px;
+    }
+    
+    .glava {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 0 30px 0; 
+        gap: 15px;
+    }
+    
+    .sarikh1 {
+        font-size: 32px;
+    }
+
+    .btn3 {
+        width: 100%; 
+    }
+
+    
+    .katalog {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0;
+        gap: 10px;
+    }
+
+    .katalogbtn {
+        width: 48%; 
+        height: auto;
+        padding: 15px 10px;
+        font-size: 12px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+   
+    .vibor {
+        flex-direction: column; 
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .mashini {
+        width: 100%; 
+        height: auto;
+        margin: 0;
+    }
+
+
+    .viborimg {
+        width: 80%;
+        height: auto;
+        margin: 20px auto; 
+        display: block;
+    }
+
+    .sutki {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 20px 20px;
+        gap: 10px;
+    }
+    
+    .sutki p, .bronbtn {
+        margin: 0; 
+    }
+    
+    .bronbtn {
+        width: 150px;
+    }
+    
+    .text1 {
+        padding: 60px 0; 
+    }
+
+    .text1 h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .text1 p {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .section3, .section6 {
+        height: auto;
+        padding: 40px 20px;
+        background-position: center;
+        background-size: cover; 
+    }
+
+    .section3h2 {
+        margin: 0;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .merskotta, .camarokotta {
+        flex-direction: column; 
+    }
+
+    .mersdiv, .camarodiv {
+        padding: 30px 0;
+    }
+
+    .ppp {
+        font-size: 20px; 
+    }
+
+    .pppp {
+        font-size: 16px;
+    }
+    
+    
+    .mersdiv2 {
+        padding: 0;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .input11, .zabronbtn {
+        width: 100%;
+        height: 60px;
+    }
+
+   
+    .camarodiv2 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .camarodiv2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .div {
+        padding: 0 20px 20px 20px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+  
+    .section4 {
+        padding: 60px 20px;
+    }
+    
+    .section4h1 {
+        font-size: 32px;
+    }
+    
+    .foto {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto1 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .foto1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .foto1 h4, .foto1 p {
+        margin: 20px 20px 0 20px;
+        position: static;
+        right: 0;
+    }
+
+
+    .section5h1 {
+        font-size: 32px;
+        margin: 0;
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    .box {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 15px;
+    }
+
+    .boxcha {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .section7 {
+        padding: 60px 20px;
+    }
+    .section7h2 {
+        font-size: 32px;
+    }
+    .kartochkalar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .karto {
+        width: 100%;
+        height: auto;
+    }
+    .karto img {
+        width: 100%;
+        height: auto;
+    }
+
+   
+    .section8 {
+        padding: 60px 20px;
+    }
+    .section8h2 {
+        font-size: 32px;
+    }
+    .prichina {
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px 0;
+    }
+    .prichinki {
+        gap: 20px;
+    }
+
+    .section9 {
+        height: auto;
+        width: 100%;
+        background-position: center;
+        padding: 0;
+    }
+    .boxxx {
+        padding: 40px 20px;
+    }
+    .boxx1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .boxchax h1 {
+        font-size: 40px;
+    }
+    .boxchax h3 {
+        font-size: 20px;
+    }
+    .boxchax p {
+        font-size: 16px;
+    }
+    .mazerati {
+        width: 100%;
+        height: auto;
+    }
+    
+
+    .div10ul {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        overflow-x: auto; 
+    }
+    .ul10 {
+        gap: 40px;
+        flex-wrap: nowrap;
+        min-width: 500px; 
+    }
+    .ul10 li img {
+        width: 70px;
+        height: auto;
+    }
+
+
+    .section11 {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 30px;
+    }
+    .img11, .div11 {
+        width: 100%;
+        text-align: center;
+    }
+    .img11 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .div11 h1, .div11 p, .div11 h4 {
+        text-align: left;
+    }
+    .div11 h1 {
+        font-size: 32px;
+    }
+    .div11 input, .div11 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+    .footerdiv {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        margin: -50px auto 0 auto;
+        flex-direction: column; 
+        gap: 40px;
+    }
+    
+    .footerchadiv, .footerchadiv2 {
+        width: 100%;
+    }
+    
+    .footerchadiv2 {
+        flex-direction: column; 
+        gap: 20px;
+    }
+    
+    .footerchadiv2 ul {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #333;
+    }
+    
+    .footerchadiv2 ul:last-child {
+        border-bottom: none;
+    }
+}
+

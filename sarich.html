@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда лимузина</title>
+    <link rel="stylesheet" href="sarich.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Аренда лимузина</h2>
+
+        <form class="form">
+            <div class="input-group">
+                <label>Имя</label>
+                <input type="text" placeholder="Введите имя" required>
+            </div>
+
+            <div class="input-group">
+                <label>Фамилия</label>
+                <input type="text" placeholder="Введите фамилию" required>
+            </div>
+
+            <div class="input-group">
+                <label>Номер телефона</label>
+                <input type="tel" placeholder="+7 999 999-99-99" required>
+            </div>
+
+            <div class="input-group">
+                <label>Дата аренды</label>
+                <input type="date" required>
+            </div>
+
+            <div class="input-group">
+                <label>Выберите лимузин</label>
+                <select required>
+                    <option disabled selected>Выберите модель</option>
+                    <option>Lincoln Town Car</option>
+                    <option>Cadillac Escalade Limo</option>
+                    <option>Hummer H2 Limo</option>
+                    <option>Mercedes-Benz S-Class Limo</option>
+                    <option>Chrysler 300C Limo</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Забронировать</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

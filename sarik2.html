@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование авто</title>
+    <link rel="stylesheet" href="sarik2.css">
+</head>
+<body>
+  <button class="back"><a href="index.html" class="A1">Back</a></button>
+    <div class="container">
+        <h2>Бронирование автомобиля</h2>
+
+        <form class="form">
+            <div class="input-group">
+                <label>Имя</label>
+                <input type="text" placeholder="Введите имя" required>
+            </div>
+
+            <div class="input-group">
+                <label>Фамилия</label>
+                <input type="text" placeholder="Введите фамилию" required>
+            </div>
+
+            <div class="input-group">
+                <label>Номер телефона</label>
+                <input type="tel" placeholder="+7 999 999-99-99" required>
+            </div>
+
+            <div class="input-group">
+                <label>Дата аренды</label>
+                <input type="date" required>
+            </div>
+
+            <div class="input-group">
+                <label>Выберите авто</label>
+                <select required>
+                    <option disabled selected>Выберите автомобиль</option>
+                    <option>Toyota Camry</option>
+                    <option>Mercedes-Benz E200</option>
+                    <option>BMW 5 Series</option>
+                    <option>Hyundai Sonata</option>
+                    <option>Kia K5</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Забронировать</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
